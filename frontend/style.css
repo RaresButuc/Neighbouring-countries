@@ -1,0 +1,51 @@
+body{
+    background: rgb(236,236,236);
+    background: radial-gradient(circle, rgb(117, 198, 221) 0%, rgb(250, 202, 104) 81%);
+}
+
+nav,main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+#country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 50%;
+    padding: 4px;
+    border-radius: 20px;
+    background: rgba(75, 156, 244, 0.3);
+    margin: 5em 24em;
+    border: 4px solid rgba(1, 8, 109, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+img{
+    color:white;
+    border: 4px solid rgba(1, 8, 109, 0.6);
+    border-radius: 20px;
+    padding: 4px 0px;
+    margin-bottom: 6px;
+    background-color: rgba(150, 66, 175, 0.2);
+    text-shadow: 0 0 4px #110d12, 0 0 6px #fae630;
+}
+
+#all, #population, #area, #prev, #next, #translations{
+    font-size: 15px;
+    background-color: rgb(228, 226, 159);
+    text-shadow: 0 0 2px #ffffff, 0 0 6px #194681;
+    border: 2px solid rgba(1, 8, 109, 0.6);
+}
